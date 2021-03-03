@@ -5,7 +5,7 @@
 [Libraries](https://www.arduino.cc/en/reference/libraries) are a fundamental component of Arduino. They allow users to enrich their applications with advanced functionality or to support shields, sensors, actuators connected to their Arduino board.
 We now have more than 70 [official libraries](https://github.com/arduino-libraries), in addition to 2,400+ contributed libraries.
 
-### Idea: write an analyzer for Arduino libraries
+### Idea: Write an analyzer for Arduino libraries
 
 Assuring quality of the Arduino libraries is very important. This task is about writing a crawler combined with a C++ static analyzer that is able to check all the official and third-party libraries in order to detect some interesting things such as:
 
@@ -19,7 +19,7 @@ This crawler should output a detailed summary of the findings.
 * *Languages:* Go (crawler), C++ (static analyzer)
 * *Difficulty:* Easy/Medium
 
-### Idea: write examples for official libraries
+### Idea: Write examples for official libraries
 
 Many of the [official libraries](https://github.com/arduino-libraries) need more examples in order to help users understand how they can be used. Examples are located in the same repository as the library itself under the `examples/` directory. If you find a library that has no examples, or insufficient to show its capabilities, that's a good candidate! Make sure you understand what the library does, and what projects it can be used for.
 
@@ -33,7 +33,7 @@ Bonus points to students who also plan to build hardware prototypes that show ho
 
 The Portenta board is not available yet, but accepted students will be sent a free one. For now, since we're finalizing the first code repositories, it's not possible to send early contributions. You can still send some contributions to another Arduino repo even if you plan to work on a Portenta (see the [application guide](how-to-apply.md)).
 
-### Idea: port FreeRTOS to Portenta
+### Idea: Port FreeRTOS to Portenta
 
 This task is about porting [FreeRTOS](https://www.freertos.org) to the new [Portenta](https://www.arduino.cc/pro/hardware/product/portenta-h7) board.
 
@@ -41,7 +41,7 @@ This task is about porting [FreeRTOS](https://www.freertos.org) to the new [Port
 * *Difficulty:* Advanced
 * *Note:* accepted students will be sent a free Portenta board. Make sure your application contains proof of experience with the low level programming required for such task.
 
-### Idea: write MicroPython examples and tools for Portenta
+### Idea: Write MicroPython examples and tools for Portenta
 
 The new [Portenta](https://www.arduino.cc/pro/hardware/product/portenta-h7) board supports [MicroPython](https://micropython.org) in addition to Arduino code. This combination opens up many new opportunities. This task is about writing examples about using MicroPython on a Portenta board. Any example is welcome: for example, you might show how to use the hardware peripherals from Python, or you might want to port Arduino examples to Python.
 
@@ -51,7 +51,7 @@ Bonus points to students who also plan to build hardware prototypes around their
 * *Difficulty:* Medium/Advanced
 * *Note:* accepted students will be sent a free Portenta board.
 
-### Idea: write JerryScript (JavaScript) examples and tools for Portenta
+### Idea: Write JerryScript (JavaScript) examples and tools for Portenta
 
 The new [Portenta](https://www.arduino.cc/pro/hardware/product/portenta-h7) board supports [JerryScript](https://jerryscript.net) in addition to Arduino code. This combination opens up many new opportunities. This task is about writing examples about using JerryScript (JavaScript) on a Portenta board. Any example is welcome: for example, you might show how to use the hardware peripherals from JavaScript, or you might want to port Arduino examples to JavaScript.
 
@@ -65,11 +65,10 @@ Bonus points to students who also plan to build hardware prototypes around their
 
 ## arduino-cli
 
-### Idea: add external programmers support to arduino-cli
+### Idea: Add external programmers support to arduino-cli
 
 [arduino-cli](https://github.com/arduino/arduino-cli) is a command line tool for programming Arduino boards. This task is about implementing a functionality for supporting external programmers, in order to enable flashing boards without bootloader or to install/repair bootloaders.
 See more details in https://github.com/arduino/arduino-cli/issues/27 and linked issues
 
 * *Languages:* Go
 * *Difficulty:* Advanced
-
